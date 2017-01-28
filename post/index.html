@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style="background-attachment: scroll;"><head>
+		<meta charset="utf-8">
+		<title>Mini Ajax File Upload Form</title>
+
+		<!-- Google web fonts -->
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+
+		<!-- The main CSS file -->
+		<link href="assets/css/style.css" rel="stylesheet">
+	<style type="text/css">		#bsaHolder{				right: 25px;position: absolute;	top: 0;	width: 345px;z-index: 10;}		#bsaHolder span{		text-shadow:1px 1px 0 #fff;}		#bsap_aplink,		#bsap_aplink:visited{	bottom: 10px;color: #aaa;font: 11px arial, sans-serif;position: absolute;right: 14px;border:none;}		#bsaHolder .bsa_it_p{	display:none;}		#bsaHolder .bsa_it_ad{	background: -moz-linear-gradient(#F3F3F3, #FFFFFF, #F3F3F3) repeat scroll 0 0 transparent; background: -webkit-gradient(linear,0% 0%,0% 100%,color-stop(0, #f3f3f3),color-stop(0.5, #fff),color-stop(1, #f3f3f3)); background-color:#f4f4f4;								border-color: #fff;overflow: hidden;padding: 10px 10px 0;-moz-box-shadow: 0 0 2px #999;-webkit-box-shadow: 0 0 2px #999;box-shadow: 0 0 2px #999;								-moz-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;}		#bsaHolder img{			display:block;border:none;}		#bsa_closeAd{			width:15px;height:15px;overflow:hidden;position:absolute;top:10px;right:11px;border:none !important;z-index:1;								text-decoration:none !important;background:url("http://cdn.tutorialzine.com/misc/enhance/x_icon.png") no-repeat;}		#bsa_closeAd:hover{		background-position:left bottom;}	</style>
+	</head>
+
+	<body><div id="bsaHolder"><a id="bsa_closeAd" title="Hide this ad!" href=""></a><script id="_adpacks_js" type="text/javascript" async="" src="http://cdn.adpacks.com/adpacks.js?legacyid=1259038&amp;zoneid=1386&amp;key=fe75131c335e3bd42585d699208c59c8&amp;serve=C6SI42Y&amp;placement=tutorialzinecom&amp;circle=dev"></script></div>
+
+		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data" style="
+    margin-left: 200px;
+">
+			<div id="drop">
+				Drop Here
+
+				<a>Browse</a>
+				<input type="file" name="upl" multiple="">
+			</div>
+
+			<ul>
+				<!-- The file uploads will be shown here -->
+			</ul>
+
+		</form>
+
+		
+        
+		<!-- JavaScript Includes -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="assets/js/jquery.knob.js"></script>
+
+		<!-- jQuery File Upload Dependencies -->
+		<script src="assets/js/jquery.ui.widget.js"></script>
+		<script src="assets/js/jquery.iframe-transport.js"></script>
+		<script src="assets/js/jquery.fileupload.js"></script>
+		
+		<!-- Our main JS file -->
+		<script src="assets/js/script.js"></script>
+
+
+		<!-- Only used for the demos. Please ignore and remove. --> 
+        <script src="http://cdn.tutorialzine.com/misc/enhance/v1.js" async=""></script>
+
+	
+</body></html>s
